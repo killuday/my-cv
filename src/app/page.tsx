@@ -100,7 +100,7 @@ export default function Home() {
                     </button>
                   </div>
                   <div
-                    hidden=""
+                    hidden={true}
                     style={{
                       position: "fixed",
                       top: 1,
@@ -541,7 +541,7 @@ export default function Home() {
                     <input
                       placeholder="Email address"
                       aria-label="Email address"
-                      required=""
+                      required={true}
                       className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 sm:text-sm dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10"
                       type="email"
                     />
@@ -604,9 +604,9 @@ export default function Home() {
                           className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                           aria-label="2019 until Present"
                         >
-                          <time dateTime={2019}>2019</time>{" "}
+                          <time >2019</time>{" "}
                           <span aria-hidden="true">—</span>{" "}
-                          <time dateTime={2024}>Present</time>
+                          <time >Present</time>
                         </dd>
                       </dl>
                     </li>
@@ -638,9 +638,9 @@ export default function Home() {
                           className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                           aria-label="2014 until 2019"
                         >
-                          <time dateTime={2014}>2014</time>{" "}
+                          <time >2014</time>{" "}
                           <span aria-hidden="true">—</span>{" "}
-                          <time dateTime={2019}>2019</time>
+                          <time >2019</time>
                         </dd>
                       </dl>
                     </li>
@@ -672,9 +672,9 @@ export default function Home() {
                           className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                           aria-label="2011 until 2014"
                         >
-                          <time dateTime={2011}>2011</time>{" "}
+                          <time >2011</time>{" "}
                           <span aria-hidden="true">—</span>{" "}
-                          <time dateTime={2014}>2014</time>
+                          <time >2014</time>
                         </dd>
                       </dl>
                     </li>
@@ -706,9 +706,9 @@ export default function Home() {
                           className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                           aria-label="2008 until 2011"
                         >
-                          <time dateTime={2008}>2008</time>{" "}
+                          <time >2008</time>{" "}
                           <span aria-hidden="true">—</span>{" "}
-                          <time dateTime={2011}>2011</time>
+                          <time >2011</time>
                         </dd>
                       </dl>
                     </li>
